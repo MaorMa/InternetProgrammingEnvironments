@@ -14,7 +14,6 @@
 	text-decoration: none;
 }
   
-  /* Change the link color to #111 (black) on hover */
 #menu a:hover {
 	background-color: green;
 }
@@ -34,12 +33,28 @@ body{
 	filter: grayscale(100%);
 }
 
+#QRcode{
+	height: 100px;
+}
+
 #gallery img:hover{
 	filter: grayscale(0%);
 	transform: scale(1.05);
 }
 
-#about,#photos,#playlist,#like,#qrcoder{
+input[type=text] {
+	width: 200px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+input[type=submit]{
+	height: 60px;
+	width: 200px;
+}
+
+#about,#photos,#playlist,#like,#qrcoder,#contact{
 	 color: #111;
 	 font-family: 'Open Sans', sans-serif;
 	 font-size: 20px;
