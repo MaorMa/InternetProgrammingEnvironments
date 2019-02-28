@@ -19,7 +19,7 @@
 }
 
 body{
-	background-image: url("background.jpg");
+	background-image: url("img/background.jpg");
 	  height: 100%; 
 	  background-position: center;
 	  background-repeat: no-repeat;
@@ -42,6 +42,9 @@ body{
 	transform: scale(1.05);
 }
 
+#wellcome img{
+	width: 1260px;
+}
 input[type=text] {
 	width: 200px;
 	padding: 12px 20px;
@@ -54,7 +57,7 @@ input[type=submit]{
 	width: 200px;
 }
 
-#about,#photos,#playlist,#like,#qrcoder,#contact{
+#about,#photos,#playlist,#like,#qrcoder,#contact,p{
 	 color: #111;
 	 font-family: 'Open Sans', sans-serif;
 	 font-size: 20px;
