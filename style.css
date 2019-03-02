@@ -8,24 +8,24 @@
 	overflow: hidden;
 	width: auto;
 	z-index: 10;
+	width: 100%;
 }
 
 .container .jumbotron {
 	background-image: url("img/background2.jpg");
 	opacity: 0.9;
+	width: 100%;
 }
 
 
 /* body */
 body{
 	background-image: url("img/background2.jpg");
-	  height: 100%; 
-	  background-repeat: no-repeat;
+	height: 100%; 
+	width: 100%;
+	background-repeat: no-repeat;
 }
 
-.container .jumbotron{
-	width: 100%;
-}
 /* container images default */
 .container img{
 	filter: grayscale(80%);
