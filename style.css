@@ -7,16 +7,17 @@
 }
   
 #menu a{
-	color: white;
-	background-color: black;
-	text-align: center;
-	padding: 14px 18px;
+	font-size: 25px;
+	color: black;
+	margin-left: 5px;
+	padding: 0px 10px 15px 20px;
 	text-decoration: none;
 }
-  
-#menu a:hover {
-	background-color: green;
+
+#menu a:hover{
+	background-color: #e4f4f9;
 }
+
 
 body{
 	background-image: url("img/background.jpg");
@@ -26,18 +27,15 @@ body{
 	  background-size: cover;
 }
 
-#gallery img{
-	width: 195px;
-	height: 200px;
-	padding:5px;
-	filter: grayscale(100%);
-}
-
 #QRcode{
 	height: 100px;
 }
 
-#gallery img:hover{
+.container img{
+	filter: grayscale(100%);
+}
+
+.container img:hover{
 	filter: grayscale(0%);
 	transform: scale(1.05);
 }
