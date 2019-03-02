@@ -57,7 +57,7 @@ input[type=submit]{
 	width: 200px;
 }
 
-#about,#photos,#playlist,#like,#qrcoder,#contact,p{
+#about,#photos,#playlist,#like,#qrcoder,#contact,#spa,p{
 	 color: #111;
 	 font-family: 'Open Sans', sans-serif;
 	 font-size: 20px;
