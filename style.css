@@ -6,7 +6,7 @@
 	position: sticky;
 	top: 0;
 	overflow: hidden;
-	width: auto;
+	width: 100vw;
 	z-index: 10;
 	width: 100%;
 	margin:0;
@@ -15,21 +15,21 @@
 .container .jumbotron {
 	background-image: url("img/background2.jpg");
 	opacity: 0.9;
-	width: auto;
+	width: 100vw;
 }
 
 
 /* body */
 body{
 	background-image: url("img/background2.jpg");
-	width: auto;
+	width: 100vw;
 	margin:0;
 	background-repeat: no-repeat;
 }
 
 /* container images default */
 .container img{
-	width: auto;
+	width: 100vw;
 	filter: grayscale(80%);
 	position: inherit;
 	z-index: 100;
@@ -44,7 +44,7 @@ body{
 /* wellcome animation */
 #wellcome img{
 	margin-top: -20px;
-	width: auto;
+	width: 100vw;
 }
 
 /* form text area*/
@@ -82,5 +82,5 @@ iframe{
 	 font-weight: 300; 
 	 line-height: 32px;
 	 margin: 0 0 72px;
-	 width: auto;
-}
+	 width: 100vw;
+	}
