@@ -81,8 +81,7 @@ input[type=submit]{
 
 button{
 	position:absolute;
-	width: 75%;
-	left: 255px;
+	width: 100px;
 
 }
 
