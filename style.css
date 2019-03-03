@@ -2,13 +2,19 @@
 /* menu */
 #menu
 {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif; /* font */
+	/* positions */
 	position: sticky;
 	top: 0;
 	overflow: hidden;
 	z-index: 10;
 	width: 100%;
 	margin:0;
+}
+
+/* make scrolling smooth */
+html{
+	scroll-behavior: smooth;
 }
 
 .container .jumbotron {
@@ -19,7 +25,7 @@
 
 /* body */
 body{
-	background-image: url("img/background2.jpg");
+	background-image: url("img/background2.jpg"); /* background image */
 	width: 100%;
 	margin:0;
 	background-repeat: no-repeat;
@@ -28,15 +34,15 @@ body{
 /* container images default */
 .container img{
 	width: 100%;
-	filter: grayscale(80%);
+	filter: grayscale(80%); /* gray images at default*/
 	position: inherit;
 	z-index: 100;
 }
 
 /* container images on hover */
 .container img:hover{
-	filter: grayscale(0%);
-	transform: scale(1.2);
+	filter: grayscale(0%); /* colorful while hover */
+	transform: scale(1.2); 
 }
 
 /* wellcome animation */
@@ -59,6 +65,7 @@ input[type=submit]{
 	width: 200px;
 }
 
+/* qrcode image */
 #qrcoder img{
 	display: block;
 	margin-left: auto;
@@ -68,7 +75,7 @@ input[type=submit]{
 	height: 300px;
 }
 
-/* all sections */
+/* desgin all sections at once */
 #about,#spa,#photos,#playlist,#like,#qrcoder,#contact,p{
 	 color: #111;
 	 font-family: 'Arial', sans-serif;
@@ -79,9 +86,9 @@ input[type=submit]{
 	 width: 100%;
 }
 
+/* form button */
 button{
 	position:absolute;
 	width: 100px;
-
 }
 
